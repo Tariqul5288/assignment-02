@@ -24,3 +24,40 @@
 }
 
 /* header section style */
+.nav-container {
+    margin: 50px 125px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.nav-container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .nav-container-menu ul {
+    display: flex;
+    gap: 15px;
+} */
+
+.nav-container-menu li {
+    display: inline;
+    list-style: none;
+    padding: 15px;
+}
+
+.nav-container-menu a {
+    text-decoration: none;
+    color: #000000f5;
+}
