@@ -17,15 +17,20 @@
 }
 
 .btn-common {
+    background-color: orangered;
     color: white;
     font-size: 20px;
     font-weight: 800;
     text-align: center;
+    border-radius: 8px;
+    border: none;
+    width: 11.8rem;
+    height: 2.8rem;
 }
 
 /* header section style */
 .nav-container {
-    margin: 35px 130px;
+    margin: 2.05rem 8.125rem;
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -54,7 +59,7 @@
 .nav-container-menu li {
     display: inline;
     list-style: none;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .nav-container-menu a {
@@ -68,8 +73,8 @@
 }
 
 .banner {
-    height: 600px;
-    margin: 0 100px 0 130px;
+    height: auto;
+    margin: 0 6.25rem 0 8.125rem;
     background-image: url(Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
     background-color: rgba(211, 211, 211, 0.474);
@@ -78,7 +83,53 @@
     border-radius: 20px;
     color: white;
     text-align: center;
+    object-fit: cover;
 }
+
+.banner h1 {
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 6.25rem;
+    padding-bottom: 1.8rem;
+}
+
+.travel-info {
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3.05rem;
+}
+
+
+.fa-solid {
+    padding-right: 1rem;
+}
+
+.travel-info div {
+    width: 170px;
+    background: white;
+    color: #000000f5;
+    text-align: center;
+}
+
+.places-travel {
+    display: flex;
+}
+
+#places {
+    display: none;
+}
+
+#places:hover {
+    display: block;
+}
+
+.fa-circle-chevron-down {
+    border: none;
+}
+
 
 
 
@@ -142,5 +193,33 @@
     .nav-container {
         flex-direction: column;
         margin: 8px;
+    }
+
+    .banner {
+        height: 600px;
+    }
+
+    .travel-info {
+        margin: 15px;
+        flex-direction: column;
+        padding: 8px;
+        gap: 10px;
+        background: rgba(255, 255, 255, 0.426);
+        border-radius: 8px;
+    }
+
+    .travel-info div {
+        width: 250px;
+        height: 45px;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        background: white;
+        color: #000000f5;
+        text-align: center;
+    }
+
+    .travel-info button {
+        width: 250px;
     }
 }
