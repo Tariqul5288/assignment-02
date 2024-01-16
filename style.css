@@ -24,7 +24,7 @@
     text-align: center;
     border-radius: 8px;
     border: none;
-    width: 11.8rem;
+    width: 11.99rem;
     height: 2.8rem;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .banner {
-    height: auto;
+    height: 500px;
     margin: 0 6.25rem 0 8.125rem;
     background-image: url(Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
@@ -94,7 +94,7 @@
 }
 
 .travel-info {
-    padding-bottom: 80px;
+    padding-top: 6.25rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -114,7 +114,7 @@
     text-align: center;
 }
 
-.places-travel {
+form {
     display: flex;
 }
 
@@ -126,12 +126,40 @@
     display: block;
 }
 
-.fa-circle-chevron-down {
-    border: none;
+/* some tours section style */
+
+.some-tours {
+    margin: 1.8rem 6.5rem;
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.some-tours-description {
+    width: 48%;
+}
 
+.some-tours-profile-picture {
+    width: 48%;
+    height: auto;
+    background-image: url(Images/Rectangle\ 4.png);
+    background-repeat: no-repeat;
+    background-color: rgba(211, 211, 211, 0.474);
+    background-position: center;
+    background-size: cover;
+}
 
+.some-tours-profile-picture img {
+    width: 100%;
+}
+
+.some-tours-description li {
+    margin-top: 20px;
+}
+
+.some-tours-description h2 {
+    margin-bottom: 20px;
+}
 
 
 
@@ -200,7 +228,7 @@
     }
 
     .travel-info {
-        margin: 15px;
+        margin: 5px;
         flex-direction: column;
         padding: 8px;
         gap: 10px;
@@ -208,9 +236,17 @@
         border-radius: 8px;
     }
 
+    .banner {
+        margin: 15px;
+    }
+
+    .banner h1 {
+        padding: 0.25rem 1rem;
+    }
+
     .travel-info div {
-        width: 250px;
-        height: 45px;
+        width: 100%;
+        height: 50px;
         display: flex;
         justify-items: center;
         align-items: center;
@@ -219,7 +255,25 @@
         text-align: center;
     }
 
-    .travel-info button {
-        width: 250px;
+    .btn-common {
+        width: 100%;
+        font-weight: normal;
+        font-size: 18px;
     }
+
+    .some-tours {
+        margin: 0.8rem 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .some-tours div {
+        width: 100%;
+    }
+
+    .some-tours-profile-picture {
+        height: 300px;
+    }
+
 }
