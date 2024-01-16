@@ -162,6 +162,8 @@ form {
 }
 
 .destination {
+    height: fit-content;
+    object-fit: cover;
     margin: 1.5rem 8.25rem;
 }
 
@@ -182,6 +184,7 @@ form {
     gap: 10px;
 
 }
+
 
 .destination-heading {
     position: relative;
