@@ -37,7 +37,8 @@
 
 }
 
-.nav-container-header {
+.nav-container-header,
+.copyright-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,6 +273,38 @@ form {
     background-color: rgb(227, 227, 221);
     border-radius: 16px;
     padding: 10%;
+}
+
+/* footer section style */
+.footer-section {
+    background-color: #e0e0e0b5;
+}
+
+.copyright-header {
+    padding: 2.5rem 0;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    margin-bottom: 2.5rem;
+}
+
+.footer-text hr {
+    margin: 2rem 0;
+}
+
+.copywright {
+    padding-bottom: 2.5rem;
+}
+
+.social span {
+    font-size: 1.9rem;
+    margin-right: 2rem;
+    text-align: center;
+
 }
 
 
