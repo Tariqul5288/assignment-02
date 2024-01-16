@@ -359,6 +359,7 @@ form {
 }
 
 .footer-text p {
+    margin: 0 15rem;
     margin-bottom: 2.5rem;
 }
 
@@ -532,6 +533,11 @@ form {
     .newsletter-section-sign-up,
     .packages-discount {
         width: 100%;
+    }
+
+    .footer-text p {
+        margin: 3rem;
+        margin-top: 0;
     }
 
 }
