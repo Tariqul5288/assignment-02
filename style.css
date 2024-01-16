@@ -407,7 +407,7 @@ form {
     border: 5px solid gainsboro;
     border-style: ridge;
     background-color: azure;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .customer1,
